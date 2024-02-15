@@ -14,7 +14,8 @@ img {
 
 .Navbar {
   display: flex;
-  align-items: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .card {
   background: white;
