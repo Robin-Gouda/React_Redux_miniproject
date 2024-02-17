@@ -35,7 +35,7 @@ export function fetchProducts() {
       const data = await res.json();
       dispatch(setProducts(data));
       dispatch(setStatus(STATUSES.IDEL));
-      console.log("5361");
+      // console.log("5361");
     } catch (error) {
       console.log(error);
       dispatch(setStatus(STATUSES.ERROR));
